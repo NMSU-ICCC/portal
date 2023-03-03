@@ -2,3 +2,57 @@
     height: auto;
     width: 100%;
 }
+
+.main_secondSection{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 80vh;
+    width: 100%;
+}
+
+.main_secondSection_title{    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 10rem;
+    font-weight: 500;
+}
+.main_secondSection_text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.main_thirdSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background: url("../resources/NMSU_1.jpg") no-repeat fixed center;
+    height: auto;
+    width: auto;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.main_thirdSection_text{
+    padding: 5rem;
+    height: auto;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.484);
+    color: white;
+    font-weight: 100;
+    font-size: 2rem;
+}
