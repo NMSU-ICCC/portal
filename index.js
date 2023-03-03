@@ -3,20 +3,17 @@ const pagesfiles = {
         "pages/main.html",
     ],
     aboutUs : [
-        "pages/navMenu.html",
         "pages/aboutUs.html"
     ],
     documents : [
-        "pages/navMenu.html",
-        
+        "pages/documents.html"        
     ],
     projects : [
-        "pages/navMenu.html",
+        "pages/aboutUs.html"
         
     ],
     meetings : [
-        "pages/navMenu.html",
-        
+        "pages/aboutUs.html"        
     ]
 }
 
@@ -37,7 +34,7 @@ function createNavBar_addEvenetListeners(){
         document.getElementById("topMenu_optionButton_Home"       ).onclick = function(){     loadRoute(pagesfiles["home"]);    }
         document.getElementById("topMenu_optionButton_AboutUs"    ).onclick = function(){     loadRoute(pagesfiles["aboutUs"]); }
         document.getElementById("topMenu_optionButton_Meetings"   ).onclick = function(){     loadRoute(pagesfiles["home"]);    }
-        document.getElementById("topMenu_optionButton_Documents"  ).onclick = function(){     loadRoute(pagesfiles["home"]);    }
+        document.getElementById("topMenu_optionButton_Documents"  ).onclick = function(){     loadRoute(pagesfiles["documents"]);    }
         document.getElementById("topMenu_optionButton_Projects"   ).onclick = function(){     loadRoute(pagesfiles["home"]);    }
         document.getElementById("topMenu_optionButton_Gallery"    ).onclick = function(){     loadRoute(pagesfiles["home"]);    }
     });
