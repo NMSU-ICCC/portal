@@ -26,7 +26,7 @@ window.addEventListener('load', function () {
 });
 
 function loadNavBar(){
-    addHMLTContent(["pages/navMenu.html"]);
+    addHMLTContent(["navMenu.html"]);
     createNavBar_addEvenetListeners();
 }
 function createNavBar_addEvenetListeners(){

@@ -4,6 +4,7 @@
 }
 
 .main_secondSection{   
+    background: url("../resources/background.png")  fixed center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,8 +21,9 @@
     padding: 0;
     margin: 0;
     border: 0;
-    font-size: 10rem;
-    font-weight: 500;
+    font-size: 12rem;
+    font-weight: 700;
+    color: white
 }
 .main_secondSection_text{
     display: flex;
@@ -33,6 +35,7 @@
     border: 0;
     font-size: 2rem;
     font-weight: 100;
+    color: white
 }
 
 .main_thirdSection{
